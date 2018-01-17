@@ -1,4 +1,5 @@
 <?php
+
 use humhub\compat\CActiveForm;
 use humhub\compat\CHtml;
 use humhub\models\Setting;
