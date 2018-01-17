@@ -1,4 +1,5 @@
 <?php
+
 namespace humhub\modules\adsense\controllers;
 
 use Yii;
