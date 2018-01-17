@@ -1,7 +1,9 @@
 <?php
+
 use yii\helpers\Url;
 use humhub\models\Setting;
 ?>
+
 <div class="panel">
   <div class="panel-heading">
     <?=Yii::t('AdsenseModule.base', '<strong>Community</strong> Ad'); ?>
@@ -10,7 +12,7 @@ use humhub\models\Setting;
   <?php
   	if (!Setting::Get('client', 'adsense')) {
  ?>
- 	Please set your ad client and ad slot ids in administration
+        <?= Yii::t('AdsenseModule.base', 'Please set your ad client and ad slot ids in administration'); ?>
  <?php
 	} else {
 ?>
