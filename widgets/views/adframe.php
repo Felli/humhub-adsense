@@ -4,7 +4,7 @@ use humhub\models\Setting;
 ?>
 <div class="panel">
   <div class="panel-heading">
-    <?=Yii::t('Humhub-chatModule.base', '<strong>Community</strong> Ad'); ?>
+    <?=Yii::t('AdsenseModule.base', '<strong>Community</strong> Ad'); ?>
   </div>
   <div class="panel-body">
   <?php
@@ -17,9 +17,10 @@ use humhub\models\Setting;
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- In Post Correct -->
 	<ins class="adsbygoogle"
-     style="display:inline-block;width:360px;height:60px"
+     style="display:block"
      data-ad-client="<?php print Setting::Get('client', 'adsense');?>"
-     data-ad-slot="<?php print Setting::Get('slot', 'adsense');?>"></ins>
+     data-ad-slot="<?php print Setting::Get('slot', 'adsense');?>"
+     data-ad-format="auto"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>

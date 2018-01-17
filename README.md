@@ -4,7 +4,7 @@ This module is for HumHub Version 0.20 (Yii 2) and greater and cannot be used wi
 
 ## Description
 
-This module adds a simple google adsense widget
+This module adds a simple google adsense widget.  Designed to use the Adsense responsive style ad.
 
 Widget works on spaces, dashboard and profile.
 
@@ -20,7 +20,7 @@ In `Administration -> AdSense` you can add your google adsense code
 
 ## Authors/Module Website
 
-__Module website:__ <https://github.com/petersmithca/humhub-basic-chat>  
+__Module website:__ <https://github.com/petersmithca/humhub-adsense>  
 
 __Author website:__ [https://github.com/petersmithca](https://github.com/petersmithca)    
 __Author:__ petersmithca    
